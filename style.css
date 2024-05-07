@@ -1,0 +1,212 @@
+/* ----- -----  HEADER PRINCIPAL----- ----- */
+.header{
+    border-bottom: .0625rem solid #abb8c3;
+}
+.header__principal {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header__logo {
+    max-height: 2.625rem;
+}
+
+.header__menu {
+    font-style: italic;
+}
+
+.header__link {
+	color: #000;
+    font-size: .875rem;
+    padding: .875rem;
+}
+
+.header__link:hover{
+    text-decoration: underline;
+}
+
+.header__lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----- -----  HEADER SECUNDARIO----- ----- */
+
+.header__secundario {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__secundario__menu{
+    display: flex;
+	gap: 20px;
+}
+
+.header__secundario__link {
+	color: #00233B;
+    padding: 1.125rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.header__secundario__lista{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.header__secundario__link:hover{
+    color: #FF6600;
+    transition: 0.3s ease-in all;
+}
+
+.busqueda__lupa{
+    background-color: #FF6600;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    border-radius: 50%;
+    padding: .625rem;
+}
+
+/*------------MAIN-------------*/
+.barra__filtro{
+    padding: 1.875rem 0 0 1.875rem;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.barra__filtro_link{
+    text-decoration: none;
+    color: #1779BA;
+}
+
+/*----------------COMUNICACION-------------------*/
+
+.comunicacion-social{
+    float: left;
+    padding-top: 2.0625rem;
+    padding-right: 2.1875rem;
+    max-width: 38.125rem;
+}
+
+.line-heading{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.span_presencial{
+    font-size: .875rem;
+    line-height: 1.5625rem;
+    color: #f60;
+    border: .0625rem solid #f60;
+    padding: .3125rem 2.5625rem;
+    border-radius: 1.125rem;
+    background: #fff;
+}
+
+.carrera_titulo{
+    margin: 0 0 0 2.5rem;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    font-weight: bold;
+    color: #00233b;
+}
+
+.comunicacion-parrafo{
+    padding: 1.25rem 0 1.25rem 0;
+}
+
+.informacion{
+    background: #617989;
+    margin-top: -0.25rem;
+}
+
+.informacion__lista{
+    padding: .9375rem 1.875rem .3125rem;
+    flex-wrap: wrap;
+    padding: .9375rem;
+}
+
+.informacion__lista__li{
+    font-size: 16px;
+    color: #fff;
+    padding-right: 19px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.comunicacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    min-width: 218px;
+    padding: 18px 32px;
+    border: 1px solid #f60;
+    border-radius: 35px;
+    background-color: #fff;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 26px;
+    color: #00233b;
+    text-decoration: none solid rgb(0, 35, 59);
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+}
+
+/*-----------------SECTION CARTAS----------------*/
+
+.cartas{
+    padding: 6.25rem;
+}
+.cartas__titulo{
+    margin: 0 0 3.375rem 0;
+    text-align: center;
+}
+.cartas__titulaciones{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cartas__bloque{
+    width: calc(33.3333% - 1.25rem);
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2.875rem;
+    text-align: center;
+}
+.cartas__bloque--titulo{
+    margin: 0 0 1.5rem 0;
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+}
+.cartas__bloque--subtitulo{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    letter-spacing: .125rem;
+    margin: 0 0 1rem 0;
+    min-height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartas__bloque--parrafo{
+    margin: 0 0 .5rem 0;
+    font-size: .75rem;
+    line-height: 1.125rem;
+}
+.cartas__bloque--link{
+    color: #f60;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}

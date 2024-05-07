@@ -9,7 +9,7 @@ Cada equipo debe hacer entrega de la evidencia de la actividad
 por medio de la plataforma de UCompensar:
 Tomando como base la página oficial del programa de
 ingeniería de software de la UCompensar
-https://ucompensar.edu.co/programas/ingenieria-desoftware-bogota/ y haciendo uso de los conocimientos
+https://ucompensar.edu.co/programas/ingenieria-de-software-bogota/ y haciendo uso de los conocimientos
 adquiridos en esta etapa pruebe en imitar lo mejor posible el
 diseño de la página web del programa de su preferencia de la
 UCompensar, esto quiere decir, que debe hacer uso de los
