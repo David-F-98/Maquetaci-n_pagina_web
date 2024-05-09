@@ -170,6 +170,7 @@
 .cartas__titulo{
     margin: 0 0 3.375rem 0;
     text-align: center;
+    font-size: 3rem;
 }
 .cartas__titulaciones{
     display: flex;
@@ -209,4 +210,153 @@
     color: #f60;
     text-decoration: underline;
     transition: all 0.3s ease;
+}
+
+/*-----------------SECTION LABORAL----------------*/
+
+.laboral{
+    display: flex;
+    padding: 0 7.5rem;
+    justify-content: space-around;
+}
+
+.laboral__texto{
+    width: 40%;
+    padding-right: 1.5rem;
+}
+
+.laboral__texto--titulo{
+    font-size: 3rem;
+    padding: 0 0 2rem 0;
+}
+
+.laboral__texto--lista{
+    list-style: inside;
+}
+
+.laboral__texto--elemento{
+    font-size: 1.125rem;
+    height: 2.1875rem;
+}
+
+.laboral__imagen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.laboral__imagen--img{
+    max-width: calc(50% - .5rem);
+}
+
+/*-----------------SECTION MATRICULA----------------*/
+
+.matricula{
+    padding: 3.3125rem 3.9375rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+.matricula__titulo{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    font-weight: 900;
+    color: #00233b;
+    padding: 1.25rem 0;
+}
+.matricula__div{
+    padding: 1.875rem;
+    background-color: #ffffff;
+}
+.matricula__parrafo{
+    padding: 1.25rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+/*-----------------SECTION PERFIL----------------*/
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    width: 87.5rem;
+    margin: 0 auto;
+    max-width: calc(100% - 2.5rem);
+}
+
+.perfil__imagen{
+    width: 50%;
+}
+.perfil__imagen--img{
+    width: 100%;
+}
+.perfil__imagen--container--titulo{
+    margin: 2rem 0;
+    color: #FF6600;
+    padding-bottom: .6875rem;
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    border-bottom: .0625rem solid #FF6600;
+}
+
+.perfil__imagen--container--parrafo{
+    line-height: 2rem;
+    font-size: 1.125rem;
+}
+
+
+.perfil__texto{
+    width: 42%;
+    margin-left: 3.75rem;
+}
+.perfil__texto--titulo{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+    color: #00233b;
+    padding-bottom: 1.25rem;
+}
+.perfil__texto--lista{
+    height: auto;
+    list-style: inside;
+    margin: 1.25rem 0;
+}
+
+.perfil__texto--lista--elemento{
+    position: relative;
+    padding-bottom: 17px;
+    padding-left: 25px;
+    line-height: 1.625rem;
+    font-size: 1.125rem;
+}
+.perfil__texto--btn{
+    display: flex;
+    margin-left: 1.25rem;
+}
+.perfil__texto--btn2{
+    width: 338px;
+    height: 48px;
+    background: #446d89;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+    text-decoration: none;
+    padding: 8px 12px 12px 75px;
+    max-width: 100%;
+    position: relative;
+    white-space: nowrap;
+    transition: all 0.3s ease-in;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.perfil__texto--btn1{
+    position: absolute;
+    width: 48px;
+    padding: 5px;
+    background: #2C90E8;
 }
